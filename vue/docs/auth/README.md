@@ -6,11 +6,12 @@ sidebar: auto
 
 ## TEMPLATE Navbar
 
-En componentes **Navbar** añadimos los enlaces:
+En componentes **Navbar** añadimos los enlaces despúes de la etiqueta </form>:
 
 Vue.js [router-link](https://es.vuejs.org/v2/guide/migration-vue-router.html#v-link-reemplazado)
 
 ```html
+// Despúes de la etiqueta </form>
 <router-link class="btn btn-outline-primary me-2" to ="/login">Login</router-link>
 <button class="btn btn-outline-primary me-2"   @click="signout">Salir</button>
 <router-link class="btn btn-outline-danger me-2"  to ="/registro">Registro</router-link>
