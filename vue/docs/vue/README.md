@@ -346,5 +346,9 @@ import { collection,
 Añade router.go a: agregarDato() y eliminarDato()
 
 ```js
+// Importa router
+import router from '../router/index'
+
+// Añadelo a la función
 router.go('/')
 ```
