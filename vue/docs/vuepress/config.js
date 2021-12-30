@@ -4,15 +4,15 @@ module.exports = {
   /**
    * Ref：https://vuepress.vuejs.org/guide/deploy.html#github-pages
    */
-  base: '/vuepress/',
+  base: '/vue/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vue + Firestore',
+  title: 'Curso Vue.js',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: 'Documenta rápido',
+  description: 'Nivel principiantes',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -37,14 +37,14 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [
-      { text: 'Vue.js', link: '/vue/' },
-      { text: 'CRUD', link: '/crud/' },
-      { text: 'Vuex', link: '/vuex/' },
-      { text: 'Storage', link: '/storage/' },
-      { text: 'Auth', link: '/auth/' },
-      { text: 'Canal Youtube', link: 'https://youtu.be/dZ59MDPcrqo'}
+      // 
+      // 
+      // { text: 'Motores', link: '/motores/' },
+      { text: 'Directivas', link: '/directivas/' },
+      { text: 'Agenda', link: '/agenda/' },
+      { text: 'Canal Youtube', link: 'https://youtu.be/FAtC9YKy1Rk' }
     ],
     sidebar: 'auto'
   },
- 
+  plugins: [['vuepress-plugin-code-copy', true]]
 }

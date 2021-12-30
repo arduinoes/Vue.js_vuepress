@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.png
 tagline: 
 actionText: Inicio Rápido →
-actionLink: /vue/
+actionLink: /directivas/
 features:
 - title: Desde Cero 
   details: Paso a paso
