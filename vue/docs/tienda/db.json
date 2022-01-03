@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "01",
+      "nombre": "Gamora",
+      "imagen": "./imagenes/Gamora.jpeg",
+      "descripcion": "Gamora es la hija adoptiva de Thanos, y la última de su especie. Sus poderes incluyen fuerza y agilidad sobrehumanas y un factor de curación acelerada"
+    },
+    {
+      "id": "02",
+      "nombre": "Groot",
+      "imagen": "./imagenes/Groot.jpeg",
+      "descripcion": "Groot es un coloso Flora del Planeta X, la capital de los mundos secundarios"
+    },
+    {
+      "id": "03",
+      "nombre": "Rocket",
+      "imagen": "./imagenes/Rocket.jpeg",
+      "descripcion": "Rocket, es un individuo genéticamente modificado parecido a un mapache que se convirtió en un criminal al igual que su amigo Groot"
+    },
+    {
+      "id": "04",
+      "nombre": "StarLord",
+      "imagen": "./imagenes/StarLord.jpeg",
+      "descripcion": "Es el hijo mestizo del emperador J'Son del planeta Spartax y la humana Meredith Quill"
+    }
+  ]
+}
