@@ -41,7 +41,7 @@ module.exports = {
       // 
       // { text: 'Motores', link: '/motores/' },
       { text: 'Directivas', link: '/directivas/' },
-      { text: 'Agenda', link: '/agenda/' },
+      { text: 'Tienda', link: '/tienda/' },
       { text: 'Canal Youtube', link: 'https://youtu.be/FAtC9YKy1Rk' }
     ],
     sidebar: 'auto'
